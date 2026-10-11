@@ -2,7 +2,7 @@ import { createHmac } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { writeFileText } from "@red-cup-engineering/computer-file-engineering-services-section/write-file";
-import { semanticHex } from "@red-cup-engineering/computer-content-engineering-services-section/semiotic-content-address";
+import { semanticHex } from "@red-cup-engineering/computer-content-address-engineering-services-section/semiotic-content-address";
 
 const identifier = /^[A-Za-z0-9][A-Za-z0-9._:-]{0,255}$/u;
 function required(value, label) { if (!identifier.test(value)) throw new TypeError(`${label} must be a nonempty identifier`); return value; }
