@@ -5,8 +5,7 @@
   "description": "Transport-free Discord community automation policy, idempotent effect planning, receipts, rollback, and privacy projections.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-web-engineering-services-section.git",
-    "directory": "services/web-platform-services-section/services/web2-platform-services-section/services/discord-engineering-services-section/services/discord-community-automation-service"
+    "url": "git+https://github.com/red-cup-engineering/discord-community-automation-service.git"
   },
   "engines": {
     "node": ">=22.18"
