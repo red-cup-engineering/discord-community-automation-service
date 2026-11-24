@@ -1,0 +1,39 @@
+{
+  "name": "@red-cup-engineering/discord-community-automation-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Transport-free Discord community automation policy, idempotent effect planning, receipts, rollback, and privacy projections.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/discord-community-automation-service.git"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "files": [
+    "src",
+    "package.json"
+  ],
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs"
+    },
+    "./community-automation": {
+      "import": "./src/community-automation.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "0.3.1",
+    "@red-cup-engineering/computer-file-engineering-services-section": "0.4.0",
+    "@red-cup-engineering/computer-content-address-engineering-services-section": "0.2.0"
+  },
+  "private": false,
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
